@@ -9,7 +9,7 @@ namespace LibraryManagement2
 {
     internal class Librarian
     {
-        Library library { get; set; }
+        Library library;
         public Librarian(Library libary) 
         { 
         this.library = libary;
